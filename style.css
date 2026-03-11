@@ -1,0 +1,117 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+    margin: 30px auto;
+    font-size: 25px;
+
+}
+
+address {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 20px;
+
+
+}
+
+
+* {
+    padding: 0px;
+    color: aliceblue;
+
+    font-family: "Fascinate Inline", system-ui;
+
+}
+
+video {
+    width: 300px;
+    height: 220px;
+    object-fit: cover;
+
+}
+
+ul {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: center;
+    gap: 50px 15px;
+
+    /* border: 10px solid yellow; */
+    margin: auto;
+}
+
+body {
+    color: aliceblue;
+    height: 100vh;
+    background: url(./img/9692e49ab68a62573224fdce958545e18966a88d.png) center/cover;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+    font-style: normal;
+    font-family: ;
+}
+
+.logo:hover {
+    color: orange;
+}
+
+a:hover {
+    color: orange;
+}
+
+footer {
+    justify-content: center;
+    display: flex;
+}
+
+.line {
+    width: 100%;
+    background-color: orange;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+}
+
+li {
+    position: relative;
+}
+
+li:hover .line {
+    opacity: 1;
+}
+
+.p:hover {
+    color: orange;
+}
+
+/* @media (max-width: 900px) {
+    video {
+        opacity: 0.5;
+    }
+} */
+
+
+@media (max-width: 800px) {
+    ul, header {
+        width: 95%;
+        justify-content: center;
+    }
+    video {
+        width: 250px;
+        height: 200px;
+        /* opacity: 0.1; */
+    }
+}
