@@ -51,7 +51,7 @@ ul {
 body {
     color: aliceblue;
     height: 100vh;
-    background: url(./img/9692e49ab68a62573224fdce958545e18966a88d.png) center/cover;
+    background: url(./9692e49ab68a62573224fdce958545e18966a88d.png) center/cover;
 }
 
 a {
@@ -114,4 +114,5 @@ li:hover .line {
         height: 200px;
         /* opacity: 0.1; */
     }
+
 }
