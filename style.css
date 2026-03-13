@@ -114,5 +114,9 @@ li:hover .line {
         height: 200px;
         /* opacity: 0.1; */
     }
-
+    footer{
+        justify-content:center;
+display:flex;
 }
+}
+
